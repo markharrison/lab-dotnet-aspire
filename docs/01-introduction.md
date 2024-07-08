@@ -5,7 +5,7 @@ slug: /
 sidebar_label: 'Introduction'
 ---
 
-# DotNet Aspire
+# .Net Aspire
 
 Hands-on Lab Script
 
