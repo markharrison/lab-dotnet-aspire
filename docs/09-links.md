@@ -9,9 +9,15 @@ slug: /Links
 
 [https://learn.microsoft.com/en-us/training/browse/?terms=.NET%20Aspire](<https://learn.microsoft.com/en-us/training/browse/?terms=.NET%20Aspire>)
 
+## Examples 
+
+### Mark Harrison 
+
+ColorX - example of .NET Aspire using Blazor [https://github.com/markharrison/Aspire-Colors](<https://github.com/markharrison/Aspire-Colors>)
+
 ## Other
 
-### aspireify.NET
+### aspireify.net
 
 [https://aspireify.net/](<https://aspireify.net/>)
 
