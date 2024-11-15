@@ -7,7 +7,7 @@ slug: /getstarted
 
 ## Prerequisites
 
-.NET Aspire requires .NET 8.0, and the lab screenshots show the use of Visual Studio 2022. The tooling is also available for Visual Studio Code, and you should be able to achieve similar results using this alternative editor/development environment.
+.NET Aspire requires .NET 9.0, and the lab screenshots show the use of Visual Studio 2022. The tooling is also available for Visual Studio Code, and you should be able to achieve similar results using this alternative editor/development environment.
 
 Some of the later lab functionality uses containers, and for those parts, Docker Desktop or similar needs to be installed.
 

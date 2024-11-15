@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'Task 4 - Components'
-slug: /components
+sidebar_label: 'Task 4 - Integrations'
+slug: /integrations
 ---
 
-# Task 4 - Components
+# Task 4 - Integrations
 
 ## Intro
 
@@ -17,9 +17,9 @@ In this section we shall use [Redis](<https://redis.io/>) for Output Caching.   
 
 The Redis functionality is deployed in a Container and so Docker Desktop needs to be installed.
 
-## Redis Components
+## Redis Integration
 
-To use .NET Aspire components, two Nuget packages need to be added to our solution.  The first is for orchestration and the second is to integrate with the functionality.
+To use .NET Aspire integrations, two Nuget packages need to be added to our solution.  The first is for orchestration and the second is to integrate with the functionality.
 
 - Right click on the ColorsAppHost project, to Add .NET Aspire package.
 

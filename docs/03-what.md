@@ -42,7 +42,7 @@ A .NET Aspire solution includes a special project called 'App Host'. This projec
 
 In a microservices architecture, loosely coupled services need to find each other in order to communicate. Typically, this is managed through configuration files or environment variables, but maintaining these can be challenging. It becomes even trickier in production systems where factors like auto-scaling, service upgrades, and failures can cause component instances to be dynamic and move around. Service discovery is a mechanism that enables components to find each other by tracking their instances and locations.
 
-## Components
+## Integrations
 
 Microservices commonly require backing services to underpin their functionality. Examples include:
 
@@ -50,13 +50,15 @@ Microservices commonly require backing services to underpin their functionality.
 - Caching: To maximize performance by storing data in a cache, allowing subsequent similar requests to be satisfied more quickly.
 - Messaging: To ensure reliable communication under high network traffic or challenging conditions by persisting and distributing messages via data queues.
 
-.NET Aspire components simplify the utilization of these backend services. Each component is a NuGet package designed for orchestration and service discovery, ensuring smooth integration of the service functionality within the application
+.NET Aspire integrattions simplify the utilization of these backend services. Each integrattion is a NuGet package designed for orchestration and service discovery, ensuring smooth integration of the service functionality within the application
 
-Out-of-the-box, .NET Aspire components include:
+Out-of-the-box, .NET Aspire integrations include:
 
 - Data storage: PostgreSQL, SQL Database, Azure Cosmos DB, and MongoDB.
 - Caching: Redis.
 - Messaging: RabbitMQ and Azure Service Bus.
+
+Note the term 'components' used in .NET Aspire 8.0 was renamed 'integrations' for .NET Aspire 9.0.
 
 ## Deployment
 
