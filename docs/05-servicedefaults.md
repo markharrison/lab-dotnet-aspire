@@ -66,7 +66,7 @@ Add `app.MapDefaultEndpoints();` immediately before `app.MapRazorPages();`.
 
 ![alt text](.\images\task2servicedefaults5.png)
 
-In the Web application add the following lines of code in 'program.cs'.
+In the API application add the following lines of code in 'program.cs'.
 
 Add `builder.AddServiceDefaults();` immediately after `var builder = WebApplication.CreateBuilder(args);`.
 
